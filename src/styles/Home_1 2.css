@@ -1,0 +1,127 @@
+.responsive-container {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.responsive-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.responsive-text {
+  position: absolute;
+  top: 40%;
+  left: 30%; 
+  transform: translate(-50%, -50%); 
+  color: white;
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  max-width: 40%; 
+  padding: 20px; 
+  text-align: left; 
+  font-weight: bold;
+  letter-spacing: 1px;
+  filter: drop-shadow(5px 0px 5px #b9b9d0);
+
+}
+
+@keyframes moveUpFadeIn {
+  0% {
+    transform: translateY(10px);  
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);  
+    opacity: 1;
+  }
+}
+
+.responsive-text-word {
+  display: inline-block;
+  animation: moveUpFadeIn 4s;
+}
+
+.Main_sec_button{
+  position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 5px;
+ background: #183153;
+ font-family: "Montserrat", sans-serif;
+ box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+ overflow: hidden;
+ border: none;
+}
+
+.Main_sec_button:after {
+  content: " ";
+  width: 0%;
+  height: 100%;
+  background: #FFD401;
+  position: absolute;
+  transition: all 0.4s ease-in-out;
+  right: 0;
+ }
+ 
+ .Main_sec_button:hover::after {
+  right: auto;
+  left: 0;
+  width: 100%;
+ }
+ 
+ .Main_sec_button span {
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  padding: 18px 25px;
+  color: #fff;
+  font-size: 1.125em;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  z-index: 20;
+  transition: all 0.3s ease-in-out;
+ }
+ 
+ .Main_sec_button:hover span {
+  color: #183153;
+  animation: scaleUp 0.3s ease-in-out;
+ }
+ 
+ @keyframes scaleUp {
+  0% {
+   transform: scale(1);
+  }
+ 
+  50% {
+   transform: scale(0.95);
+  }
+ 
+  100% {
+   transform: scale(1);
+  }
+ }
+ 
+
+@media (max-width: 768px) { 
+  .responsive-text {
+      font-size: 1.5rem;
+      max-width: 70%; 
+      padding: 15px; 
+      left: 50%;
+  }
+}
+
+@media (max-width: 480px) { 
+  .responsive-text {
+    font-size: 1rem;
+    max-width: 30%;
+    padding: 10px;
+    left: 30%;
+    text-align: left;
+  }
+}
+
+
