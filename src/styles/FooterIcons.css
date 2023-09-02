@@ -1,0 +1,33 @@
+.footerIcons_wrapper{
+    background-color: #4444441e ;
+    border-top: 2px solid #ffb703;
+    padding-top: 10px ;
+    padding-bottom: 20px;
+}
+
+.footerIcons_container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.social_icons{
+    display: flex;
+    gap: 20px;
+}
+
+.copy_para{
+    font-size: 14px;
+}
+
+@media (max-width:786px){
+    .footerIcons_container{
+        flex-direction: column;
+    }
+    .social_icons{
+    border-top: 2px solid #ffb703;
+    padding-top: 10px;
+}
+}

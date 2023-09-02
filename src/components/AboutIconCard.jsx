@@ -77,12 +77,16 @@ const AboutIconCard = () => {
           </div>
           <div className="flex-lower">
             <p className="card_3_para_1">Our Github</p>
+
             {/* Content for the lower part */}
+            <a href="https://github.com/nabeelnasir9" target="blank">
+
             <img
               src={github}
               alt="Centered Description"
               className="center-icon"
             />
+            </a>
           </div>
         </div>
       </div>

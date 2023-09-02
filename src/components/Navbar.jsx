@@ -2,6 +2,7 @@
 import { useState } from "react";
 import "../styles/Navbar.css";
 import Logo from '../assets/Home/Logo_1.png';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -22,33 +23,56 @@ const Navbar = () => {
         </div>
         <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
           <li className="nav_hover">
-            <a href="/" style={{ textDecoration: "none", color: "black" }}>
-              Home
-            </a>
+          <Link
+                to="home-section"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={2000}
+                style={{ textDecoration: "none", color: "black" }}
+
+            >
+                Home
+            </Link>
           </li>
           <li className="nav_hover">
-            <a
-              href="#about"
-              style={{ textDecoration: "none", color: "black" }}
+          <Link
+                to="about-section"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={2000}
+                style={{ textDecoration: "none", color: "black" }}
+
             >
-              About
-            </a>
+                About
+            </Link>
           </li>
           <li className="nav_hover">
-            <a
-              href="#expertise"
-              style={{ textDecoration: "none", color: "black" }}
+          <Link
+                to="expertise-section"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={2000}
+                style={{ textDecoration: "none", color: "black" }}
+
             >
-              Expertise
-            </a>
+                Expertise
+            </Link>
           </li>
           <li className="nav_hover">
-            <a
-              href="#contact"
-              style={{ textDecoration: "none", color: "black" }}
+          <Link
+                to="contact-section"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={2000}
+                style={{ textDecoration: "none", color: "black" }}
+
             >
-              Contact Us
-            </a>
+                Contact Us
+            </Link>
           </li>
           <li>
             <button
