@@ -22,7 +22,7 @@ const Home_1 = () => {
 
   return (
     <div className="responsive-container">
-      <img src={MainSec} alt="Home" className="responsive-image" />
+      <img src={MainSec} alt="Home" className="responsive-image"style={{opacity:'0'}}/>
       <p className="responsive-text">
         {text}
         <span className="responsive-text-word" key={animatedWord}>

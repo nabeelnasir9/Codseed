@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
 
 .footer_wrapper {
-    background-color: #4444441e;
+    background-color: #e4e4e4fc;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
     padding: 100px 100px;
+    position: relative;
 
 }
 
@@ -28,7 +29,7 @@
 }
 
 .footer_content_2_head_1 {
-    border-bottom: 3px solid #ffb703;
+    border-bottom: 3px solid #c20000;
     max-width: 150px;
 }
 
@@ -58,7 +59,7 @@
 }
 
 .quotes {
-    color: #ffb703;
+    color: #c20000;
 }
 
 #unique-message::placeholder {

@@ -36,13 +36,13 @@ const Contact = () => {
         <div className="unique-form-section">
           <h2
             className="Contact_head"
-            style={{ borderBottom: "2px solid #ffb705" }}
+            style={{ borderBottom: "2px solid #c20000" }}
           >
             Contact Us
           </h2>
           <h3>
             Customise your own engineering team of{" "}
-            <span style={{ color: "#ffb705" }}>
+            <span style={{ color: "#c20000" }}>
               software engineers and start work in 24 hours!
             </span>
           </h3>

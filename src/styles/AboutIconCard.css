@@ -11,8 +11,8 @@
 
 .mainHead{
     font-size: 40px;
-    color: #fff;
-    border-bottom: 2px solid #ffb703;
+    color: black;
+    border-bottom: 2px solid #000;
     margin-top: 3rem;
     margin-bottom: 3rem;
     text-align: center;
@@ -20,10 +20,18 @@
 }
 
 .Maincard_Para{
-    font-size: 25px;
-    color: #fff;
+    font-size: 19px;
+    color: #000;
     padding: 1rem;
 
+}
+.Maincard_Para_up{
+    font-size: 21px;
+    color: #000;
+    padding-top: 20px;
+    font-weight: 600;
+    margin: 0;
+    border-bottom: 2px solid #c20000;
 }
 
 .icon-card-container {
@@ -36,9 +44,9 @@
 
 .card {
     flex: 1;
-    background-color:rgba(41,41,41,.7);
+    background-color:#fff;
     padding: 1rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.254); /* Optional: Adds a subtle shadow */
     border-radius: 8px; /* Optional: Rounds the card corners */
     
     height: 500px;
@@ -48,8 +56,9 @@
 
 .card-text {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    flex-direction: column;
    
 }
 
@@ -95,19 +104,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 1px solid #ffb703;
+    border-top: 2px solid #c20000;
     flex-direction: column;
+    font-weight: 600;
 }
 
 .card_3_para{
     font-size: 20px;
-    color: #fff;
-    border-bottom: 1px solid #ffb703;
+    color: black;
+    border-bottom: 2px solid #c20000;
+    font-weight: 600;
 }
 
 .card_3_para_1{
     font-size: 18px;
-    color: #fff;
+    color: black;
 }
 
 /* Responsive Design */

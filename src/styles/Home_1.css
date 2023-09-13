@@ -6,7 +6,7 @@
 
 .responsive-image {
   width: 100%;
-  height: auto;
+  height: 500px;
   display: block;
 }
 
@@ -15,7 +15,7 @@
   top: 40%;
   left: 30%; 
   transform: translate(-50%, -50%); 
-  color: white;
+  color: black;
   font-size: 3rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   max-width: 40%; 
@@ -23,7 +23,7 @@
   text-align: left; 
   font-weight: bold;
   letter-spacing: 1px;
-  filter: drop-shadow(5px 0px 5px #b9b9d0);
+  /* filter: drop-shadow(5px 0px 5px #000); */
 
 }
 
@@ -41,6 +41,7 @@
 .responsive-text-word {
   display: inline-block;
   animation: moveUpFadeIn 4s;
+  color: #c20000
 }
 
 .Main_sec_button{
@@ -116,11 +117,16 @@
 
 @media (max-width: 480px) { 
   .responsive-text {
-    font-size: 1rem;
-    max-width: 30%;
+    font-size: 1.5rem;
+    max-width: 70%;
     padding: 10px;
-    left: 30%;
+    left: 50%;
     text-align: left;
+  }
+  .responsive-image {
+    width: 100%;
+    height: 200px;
+    display: block;
   }
 }
 

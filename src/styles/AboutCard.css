@@ -5,15 +5,15 @@
   }
   
   .cards .red {
-    background-color: hsla(0, 0%, 100%, 0.333);
+    background-color: hsl(0, 0%, 0%);
   }
   
   .cards .blue {
-    background-color: hsla(0, 0%, 100%, 0.333);
+    background-color: hsl(0, 0%, 0%);
   }
   
   .cards .green {
-    background-color: hsla(0, 0%, 100%, 0.333);
+    background-color: hsl(0, 0%, 0%);
   }
   
   .cards .card {

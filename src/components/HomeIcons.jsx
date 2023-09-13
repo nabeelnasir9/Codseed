@@ -36,7 +36,7 @@ const HomeIcons = () => {
   ];
   return (
     <div className="main">
-        <p className="main-para"> Team&apos;s we have worked with</p>
+        <p className="main-para"> Team&apos;s we <span style={{color:'#c20000'}}>have worked with</span></p>
     <div className="icons-wrapper">
       {icons.map((iconSrc, index) => (
         <div key={index} className="icon-container">

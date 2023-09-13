@@ -1,8 +1,9 @@
 .footerIcons_wrapper{
-    background-color: #4444441e ;
-    border-top: 2px solid #ffb703;
+    background-color: #e4e4e4fc ;
+    border-top: 2px solid #c20000;
     padding-top: 10px ;
     padding-bottom: 20px;
+    position: relative;
 }
 
 .footerIcons_container{
@@ -27,7 +28,7 @@
         flex-direction: column;
     }
     .social_icons{
-    border-top: 2px solid #ffb703;
+    border-top: 2px solid #c20000;
     padding-top: 10px;
 }
 }

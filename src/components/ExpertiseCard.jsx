@@ -10,7 +10,7 @@ const ExpertiseCard = () => {
 
   return (
     <div className="uniqueContainer">
-      <h1 className="uniqueHeader">Why Choose Codseed?</h1>
+      <h1 className="uniqueHeader">Why Choose <span style={{color:'#c20000'}}>Codseed?</span></h1>
       <div className="uniqueButtons">
         <button
           onClick={() =>

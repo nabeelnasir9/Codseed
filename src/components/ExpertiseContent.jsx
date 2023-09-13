@@ -7,7 +7,7 @@ import electro from "../assets/Expertise/electronic.png";
 const ExpertiseContent = () => {
   return (
     <div className="ec-container">
-        <h1 className="ec-Head_1">Turning Challenges into Opportunities</h1>
+        <h1 className="ec-Head_1">Turning Challenges <span style={{color:'#c20000'}}>into Opportunities</span></h1>
       <div className="ec-content-top">
         <p className="ec-paragraph">
           Years of experience in Scala and Golang, enables us to provide

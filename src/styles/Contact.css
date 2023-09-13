@@ -1,10 +1,9 @@
 .unique-full-bg {
-    background-color: rgba(255, 255, 255, 0.199);
-    padding: 20px 0;
+    background-color: rgb(255, 255, 255);
+    padding: 60px 0;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    position: relative;
 }
 
 .Contact_head{
@@ -38,7 +37,7 @@
     width: 100%;
     padding: 10px;
     background: rgba(255, 255, 255, 0.1);
-    border: 1px solid #ffb703;
+    border: 1px solid #c20000;
     color: black;
     border-radius: 10px;
 }
@@ -46,20 +45,20 @@
 .contact_button {
     padding: 15px 40px;
     border: none;
-    background-color: #ffb703;
+    background-color: #c20000;
     color: white;
     cursor: pointer;
     width: 150px;
     border-radius: 30px;
-    border: 1px solid #ffb703;
+    border: 1px solid #c20000;
     font-size: 15px;
 }
 
 .contact_button:hover {
     background-color: white;
 
-    color: #ffb703;
-    border: 1px solid #ffb703;
+    color: #c20000;
+    border: 1px solid #c20000;
     transition: all 0.4s ease-in-out;
 }
 
@@ -92,5 +91,12 @@
     .contact_button {
         padding: 10px 30px;
         font-size: 13px;
+    }
+    .unique-full-bg {
+        background-color: rgb(255, 255, 255);
+        padding: 40px 0;
+        display: flex;
+        justify-content: center;
+        position: relative;
     }
 }

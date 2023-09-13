@@ -13,7 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3d3d3d;
+    background-color: #efefef;
     animation: fadeIn 1.2s ease-out;
 }
 
@@ -26,7 +26,7 @@
     width: 90%;
     box-sizing: border-box;
     margin: 0 auto;
-    background-color: #292929B3;
+    background-color: #000;
     align-items: center;
     height: auto;
     position: relative;
@@ -57,7 +57,7 @@
 .leader-image.active {
     filter: grayscale(0);
     transition: all 0.6s ease-in-out;
-    background-color: #ffb703;
+    background-color: black;
 
 }
 
@@ -68,22 +68,22 @@
 }
 
 .para_1 {
-    color: #ffb703;
+    color: white;
     font-size: 29px;
     font-weight: 600;
 text-decoration: underline;
 }
 
 .para_2 {
-    color: #fff;
+    color: #ffffff;
     font-size: 21px;
     font-weight: 500;
 }
 
 .para_3 {
-    color: #fff;
+    color: #c20000;
     font-size: 21px;
-    font-weight: 500;
+    font-weight: 600;
     margin-top: 50px;
     margin-bottom: 5px;
 
@@ -91,7 +91,7 @@ text-decoration: underline;
 
 .para_4 {
     margin-top: 0px;
-    color: #ffb703;
+    color: white;
     font-size: 22px;
     font-weight: 600;
 }
@@ -108,13 +108,13 @@ text-decoration: underline;
 width: 30px;
 height: 30px;
 border-radius: 50%;
-background-color: #5e5b5b; 
+background-color: #fff; 
 cursor: pointer;
 transition: background-color 0.3s;
 }
 
 .pagination-dot.active {
-background-color: #ffb705; 
+background-color: #c20000; 
 }
 
 @media (max-width: 768px) {
@@ -139,19 +139,16 @@ background-color: #ffb705;
         padding-top: 30px;
     }
     .para_1 {
-        color: #ffb703;
         font-size: 24px;
         font-weight: 600;
     }
     
     .para_2 {
-        color: #fff;
         font-size: 18px;
         font-weight: 500;
     }
     
     .para_3 {
-        color: #fff;
         font-size: 18px;
         font-weight: 500;
         margin-top: 50px;
@@ -161,7 +158,6 @@ background-color: #ffb705;
     
     .para_4 {
         margin-top: 0px;
-        color: #ffb703;
         font-size: 19px;
         font-weight: 600;
     }

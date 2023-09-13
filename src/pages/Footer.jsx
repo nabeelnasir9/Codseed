@@ -1,5 +1,5 @@
 import "../styles/Footer.css";
-import Logo from "../assets/Home/Logo_1.png";
+import Logo from "../assets/Expertise/footerLogo.png";
 import {SlLocationPin  } from 'react-icons/sl';
 import { HiMail } from "react-icons/hi";
 import { FiPhoneCall } from "react-icons/fi";
@@ -35,21 +35,21 @@ const Footer = () => {
           <div className="footer_contact_1">
             <h1 className="footer_content_2_head_1">Reach Us</h1>
             <div className="footer_content_Reach_1">
-              <HiMail className="icon__footer" color="#ffb703"/>
+              <HiMail className="icon__footer" color="#c20000"/>
               <p className="footer_content_content_1">sales@codseed.com</p>
             </div>
             <div className="footer_content_Reach_1">
-              <FiPhoneCall className="icon__footer" color="#ffb703" />
+              <FiPhoneCall className="icon__footer" color="#c20000" />
               <p className="footer_content_content_1">+92 318 4111969</p>
             </div>
             <div className="footer_content_Reach_1">
-              <SlLocationPin className="icon__footer" color="#ffb703" />
+              <SlLocationPin className="icon__footer" color="#c20000" />
               <p className="footer_content_content_1">
                 2710 Hunter Mill Road, Oakton, VA 22124
               </p>
             </div>
             <div className="footer_content_Reach_1">
-              <SlLocationPin className="icon__footer" color="#ffb703" />
+              <SlLocationPin className="icon__footer" color="#c20000" />
               <p className="footer_content_content_1">
                 182 A Commercial C, Bahria Town, Lahore
               </p>

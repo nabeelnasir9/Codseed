@@ -6,12 +6,14 @@ import Expertise from './pages/Expertise';
 import Contact from './pages/Contact';
 import FooterMain from './pages/FooterMain';
 import { Element } from 'react-scroll';
+import ParticlesHome from './components/ParticlesHome';
 
 
 function App() {
 
   return (
     <>
+    <ParticlesHome/>
       <Navbar/>
       <Element name="home-section">
                 <Home />
