@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
     
   
   }
@@ -25,6 +26,11 @@
     text-align: center;
     line-height: 1;
     backface-visibility: hidden;
+  }
+  .coin .side img {
+    width: 70% !important;
+    height: 100% !important;
+    object-fit: cover; /* This will make sure the image covers the container without stretching */
   }
   
   .coin .heads {
