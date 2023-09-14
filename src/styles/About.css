@@ -4,6 +4,9 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    perspective: 1000px; /* Added perspective */
+    background-color: #efefef;
+
     
   
   }
@@ -15,6 +18,9 @@
     margin: auto;
     animation: rotate_4001510 10s infinite linear;
     transform-style: preserve-3d;
+    transform-origin: center center; 
+    /* background-color: #efefef; */
+
   }
   
   .coin .side {
@@ -26,6 +32,7 @@
     text-align: center;
     line-height: 1;
     backface-visibility: hidden;
+    background-color: #efefef;
   }
   .coin .side img {
     width: 70% !important;
@@ -58,7 +65,7 @@
 /* For even smaller screens, like older iPhones */
 @media only screen and (max-width: 480px) {
   .coin {
-      width: 300px !important;  
+      width: 100% !important;  
       height: 320px !important;
   }
 
