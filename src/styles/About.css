@@ -17,7 +17,7 @@
   }
   
   .coin .side {
-    /* position: absolute; */
+    position: absolute;
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -52,8 +52,8 @@
 /* For even smaller screens, like older iPhones */
 @media only screen and (max-width: 480px) {
   .coin {
-      width: 200px !important;  
-      height: 120px !important;
+      width: 300px !important;  
+      height: 320px !important;
   }
 
   .About_main {
