@@ -1,4 +1,4 @@
-   /* .About_main {
+ .About_main {
     padding-top: 50px;
     display: flex;
     justify-content: center;
@@ -10,14 +10,14 @@
   .coin {
     width: 500px;
     height: 300px;
-    position: relative;
+    /* position: relative; */
     margin: auto;
     animation: rotate_4001510 10s infinite linear;
     transform-style: preserve-3d;
   }
   
   .coin .side {
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -40,57 +40,27 @@
       transform: rotateY(360deg);
     }
   }
-   */
 
-
-   .About_main {
-    padding-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  /* Typically, phones are smaller than 768px in width */
+@media only screen and (max-width: 768px) {
+  .coin {
+      width: 250px !important;  /* Half the original size */
+      height: 150px !important; /* Half the original height */
+  }
 }
 
-.coin {
-    width: 100%; /* Ensures that the width is responsive */
-    max-width: 500px; /* Maximum width that coin can take */
-    height: 300px;
-    position: relative;
-    margin: auto;
-    animation: rotate_4001510 10s infinite linear;
-    transform-style: preserve-3d;
-    -webkit-transform-style: preserve-3d; /* Webkit prefix for older iPhones */
+/* For even smaller screens, like older iPhones */
+@media only screen and (max-width: 480px) {
+  .coin {
+      width: 200px !important;  
+      height: 120px !important;
+  }
+
+  .About_main {
+      padding-top: 20px; /* Reducing the padding a bit */
+  }
 }
 
-.coin .side {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 1;
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden; /* Webkit prefix for older iPhones */
-}
 
-.coin .heads {
-    transform: rotateY(0deg);
-    -webkit-transform: rotateY(0deg); /* Webkit prefix for older iPhones */
-}
 
-.coin .tails {
-    transform: rotateY(180deg);
-    -webkit-transform: rotateY(180deg); /* Webkit prefix for older iPhones */
-}
-
-@keyframes rotate_4001510 {
-    100% {
-        transform: rotateY(360deg);
-    }
-}
-
-@-webkit-keyframes rotate_4001510 { /* Webkit prefix for older iPhones */
-    100% {
-        -webkit-transform: rotateY(360deg);
-    }
-}
+  
