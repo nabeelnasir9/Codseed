@@ -1,5 +1,6 @@
 import ExpertiseCard from "../components/ExpertiseCard";
 import ExpertiseContent from "../components/ExpertiseContent";
+import Testimonial from "../components/Testimonial";
 
 const Expertise = () => {
   return <div id="expertise" style={{
@@ -7,6 +8,7 @@ const Expertise = () => {
   }}>
     <ExpertiseCard/>
     <ExpertiseContent/>
+    <Testimonial/>
      </div>;
 };
 

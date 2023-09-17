@@ -29,7 +29,7 @@ const FooterIcons = () => {
             <SlSocialGithub size={23} color="black"/>
           </a>
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/codseed_/"
             target="_blank"
             rel="noopener noreferrer"
           >

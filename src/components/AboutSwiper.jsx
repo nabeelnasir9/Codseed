@@ -48,7 +48,7 @@ const AboutSwiper = () => {
                 :  <div className='Message_CEO'>
                 <div className='Message_1'>
                     <p className='para_1'>A word from our COO</p>
-                    <p className='para_2'>Codseed is a visionary company that holds firm ground in technology and science. The ideology is to help businesses grow and flourish in digital domain by providing them competitive engineering solutions. We are committed to grow as a team and deliver services which are distinguished in international market.</p>
+                    <p className='para_2'>In a dynamic digital landscape, Codseed stands as a beacon of innovation. Rooted in robust technological and scientific principles, we empower businesses with transformative engineering solutions. Our unwavering commitment is to deliver global excellence, ensuring our partners do not just adapt, but lead. Together, we are not just navigating the future of digital growth – we are defining it.</p>
                 </div>
                 <p className='para_3'>Nabeel Nasir</p>
                 <p className='para_4'>COO</p>
