@@ -40,7 +40,7 @@ const Footer = () => {
             </div>
             <div className="footer_content_Reach_1">
               <FiPhoneCall className="icon__footer" color="#c20000" />
-              <p className="footer_content_content_1">+92 318 4111969</p>
+              <p className="footer_content_content_1">+971 56 957 5503</p>
             </div>
             <div className="footer_content_Reach_1">
               <SlLocationPin className="icon__footer" color="#c20000" />
@@ -51,7 +51,7 @@ const Footer = () => {
             <div className="footer_content_Reach_1">
               <SlLocationPin className="icon__footer" color="#c20000" />
               <p className="footer_content_content_1">
-                182 A Commercial C, Bahria Town, Lahore
+                45, Umm Hurair Road, Oud Metha, Dubai, UAE
               </p>
             </div>
           </div>
