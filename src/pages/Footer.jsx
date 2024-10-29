@@ -51,7 +51,7 @@ const Footer = () => {
             <div className="footer_content_Reach_1">
               <SlLocationPin className="icon__footer" color="#c20000" />
               <p className="footer_content_content_1">
-                45, Umm Hurair Road, Oud Metha, Dubai, UAE
+                48, Umm Hurair Road, Oud Metha, Dubai, UAE
               </p>
             </div>
           </div>
