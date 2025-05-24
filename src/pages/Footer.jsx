@@ -36,11 +36,11 @@ const Footer = () => {
             <h1 className="footer_content_2_head_1">Reach Us</h1>
             <div className="footer_content_Reach_1">
               <HiMail className="icon__footer" color="#c20000"/>
-              <p className="footer_content_content_1">sales@codseed.com</p>
+              <p className="footer_content_content_1">codseed2@gmail.com</p>
             </div>
             <div className="footer_content_Reach_1">
               <FiPhoneCall className="icon__footer" color="#c20000" />
-              <p className="footer_content_content_1">+971 56 957 5503</p>
+              <p className="footer_content_content_1">+1(431) 877-7367</p>
             </div>
             <div className="footer_content_Reach_1">
               <SlLocationPin className="icon__footer" color="#c20000" />
@@ -51,7 +51,7 @@ const Footer = () => {
             <div className="footer_content_Reach_1">
               <SlLocationPin className="icon__footer" color="#c20000" />
               <p className="footer_content_content_1">
-                48, Umm Hurair Road, Oud Metha, Dubai, UAE
+                Manitoba, Winnipeg, Canada
               </p>
             </div>
           </div>
